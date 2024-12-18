@@ -1,0 +1,224 @@
+header {
+  background-image: url("1275942.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: yellow;
+  text-align: center;
+  padding: 5px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  animation: slideIn 2s linear;
+  animation-name: example1;
+ animation-duration: 4s;
+ animation-iteration-count:infinite;}
+  header h1 {
+      font-size: 5rem;
+      margin-bottom: 10px;}
+  header p {
+      font-size: 2rem;
+      font-weight: lighter;}
+body {
+  background-image: url("1275942.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;}
+footer {
+text-align: center;
+padding: 25px;
+background-image: url("1275942.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+color: black;
+font-size: 20px;
+position: relative;
+bottom: 0;
+width: 100%;
+animation: fadeIn 2s ease-in-out;
+background-position: bottom;
+margin-top:10%;}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;  
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-image: url("1275942.jpg");
+  background-repeat: repeat-y;
+  background-size: cover;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  margin:left;}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+  margin:left;}
+.sidenav a:hover {
+  color: blue;}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  margin:left;
+  color:white;}
+#main {
+  transition: margin-left .5s;
+  padding:5px;
+  color:yellow;
+  font-size:30px;
+  width:5%;
+  margin-right: 100%;
+  animation-name: example2;
+  animation-duration: 4s;
+  animation-iteration-count:infinite;}
+@media screen and (max-height: 200px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}}
+body h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-top:10%;}
+  body h1 {
+    font-size: 4rem;
+    color: yellow;
+    text-align: center;
+    padding: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    animation: slideIn 2s linear;
+    animation-name: example1;
+   animation-duration: 4s;
+   animation-iteration-count:infinite;}
+    body h2 {
+      font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 4s linear;}
+body p {
+  font-size: 2rem;
+  font-weight: lighter;
+  text-align:center;}
+.container1 {
+width: 50vw;
+height:50vw;
+margin: 30px auto;
+background-image: url("tcgcpic5.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+padding: 30px;
+border-radius: 15px;
+box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+font-size: 40px;
+animation: slideIn 1s ease-in-out;
+animation-direction: reverse; }
+.container2 {
+width: 50vw;
+height:50vw;
+margin: 30px auto;
+background-image: url("tcgcpic6.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+padding: 30px;
+border-radius: 15px;
+box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+font-size: 40px;
+animation: slideIn 1s ease-in-out;
+animation-direction: reverse;
+margin-top:10%;}
+.container3 {
+width: 50vw;
+height:50vw;
+margin: 30px auto;
+background-image: url("tcgcpic3.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+padding: 30px;
+border-radius: 15px;
+box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+font-size: 40px;
+animation: slideIn 1s ease-in-out;
+animation-direction: reverse;}
+.container4 {
+width: 50vw;
+height:50vw;
+margin: 30px auto;
+background-image: url("tcgcpic4.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+padding: 30px;
+border-radius: 15px;
+box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+font-size: 40px;
+animation: slideIn 1s ease-in-out;
+animation-direction: reverse;
+margin-top:10%;}
+.container5 {
+width: 50vw;
+height:50vw;
+margin: 30px auto;
+background-image: url("tcgcpic2.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+padding: 30px;
+border-radius: 15px;
+box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+font-size: 40px;
+animation: slideIn 1s ease-in-out;
+animation-direction: reverse;.
+margin-top:10%;}
+.container6 {
+width: 50vw;
+height:50vw;
+margin: 30px auto;
+background-image: url("tcgcpic1.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+padding: 30px;
+border-radius: 15px;
+box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+font-size: 40px;
+animation: slideIn 1s ease-in-out;
+animation-direction: reverse;
+margin-top:10%;}
+.box {
+background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.1);
+        animation: fadeIn 2s ease-in-out;
+          animation-name: example2;
+  animation-duration: 4s;
+  animation-iteration-count:infinite;}
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+25%  {background-color:yellow; left:200px; top:0px;}
+50%  {background-color:blue; left:200px; top:200px;}
+75%  {background-color:green; left:0px; top:200px;}
+100% {background-color:red; left:0px; top:0px;}}
+  @keyframes example2 {
+    0%   {border:groove 10px red; left:0px; top:0px;}
+  25%  {border:groove 10px yellow; left:200px; top:0px;}
+  50%  {border:groove 10px blue; left:200px; top:200px;}
+  75%  {border:groove 10px green; left:0px; top:200px;}
+  100% {border:groove 10px red; left:0px; top:0px;}}
+  @keyframes example1 {
+    0%  {color:black; left:200px; top:0px;}
+      25%  {color:yellow; left:200px; top:200px;}
+      50%  {color:black; left:200px; top:200px;}
+    75%  {color:yellow; left:0px; top:200px;}
+    100% {color:black; left:0px; top:0px;}}
+      @keyframes example3 {
+        0%  {color:black; left:200px; top:0px;}
+          25%  {color:white; left:200px; top:200px;}
+          50%  {color:black; left:200px; top:200px;}
+        75%  {color:white; left:0px; top:200px;}
+        100% {color:black; left:0px; top:0px;}}
